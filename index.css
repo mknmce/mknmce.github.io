@@ -1,0 +1,40 @@
+body {
+align:center;
+padding-top:15px;
+padding-left:150px;
+padding-right:150px;
+padding-bottom:10px;
+background-color: rgb(100,300,150);
+}
+* { font-family: Arial, Verdana, sans-serif;
+font-style:italic} 
+
+h1{text-align:center;
+color:silver;
+background-color:#ee3e80;}
+h2 { background-color:rgb(200,150,50);} 
+h3{ background-color: silver;}
+
+ a:hover:not(.active)
+	{
+	 background-color:green;}
+
+.active{background-color:yellow;}
+
+div{
+
+overflow: auto;
+width: 100%;
+background-color: darkcyan;
+border: 1px solid #665544;
+padding:10px;
+}
+
+p.img{
+	padding:100%
+}
+footer{padding:2px;
+	padding-top:2px;
+	padding-right:20px;
+	padding-bottom:2px
+}
